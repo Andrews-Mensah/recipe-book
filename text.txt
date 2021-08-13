@@ -1,0 +1,14 @@
+$ cd veggie-favorites
+
+$ git add chili.txt
+$ git commit -m ‘change done’
+$ cd ../veggie-clone
+$ git fetch
+$ git merge origin/master
+$ git branch new-recipe
+$ git checkout new-recipe
+$ git add new-recipe.txt
+$ git commit -m ’something added’
+$ git fetch
+$ git checkout master
+$ git push 
